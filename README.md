@@ -62,7 +62,9 @@ the topmost symbol from stack1 and pushes the corresponding right-hand side of t
 production rule onto the stack.
 
 ● If the entry is an "S" symbol, the function performs a shift operation. The function pushes the
-current symbol from stack2 onto stack1 and pops it from stack2.LR(0) PARSE TABLE & OUTPUT:LL(1) LOGIC:
+current symbol from stack2 onto stack1 and pops it from stack2.
+
+# LL(1) LOGIC:
 
 ● The LL(1) parsing algorithm is implemented in the parse() function. The function starts by
 initializing the stack1 and stack2 pointers to -1. It then reads the input string and pushes it to
@@ -83,8 +85,6 @@ production rule onto the stack.
 
 ● If the entry is an "S" symbol, the function performs a shift operation. The function pushes the
 current symbol from stack2 onto stack1 and pops it from stack2.
-
-## LL(1) LOGIC:
 
 ● The LL(1) parsing algorithm is implemented in the parse() function. The function starts by
 initializing the stack1 and stack2 pointers to -1. It then reads the input string and pushes it to
